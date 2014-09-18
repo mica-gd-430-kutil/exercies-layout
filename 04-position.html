@@ -15,32 +15,26 @@
 	<body>
 		<div class="intro">
 			<div class="container">
-				<h1>The Display Property</h1>
-				<ul>
-					<li>Every element has a default <code>display</code> value depending on what type of element it is.</li>
-					<li>The default for most elements is usually block or inline.
-						<ul>
-							<li>A block element is often called a block-level element.</li>
-							<li>An inline element is always just called an inline element.</li>
-						</ul>
-					</li>
-				</ul>
+				<h1>The Position Property</h1>
+				<p>In order to make more complex layouts, we need to discuss the <code>position</code> property. It has a bunch of possible values, and their names make no sense and are impossible to remember. Let's go through them one by one, but maybe you should bookmark this page too.</p>
 			</div>
 		</div>
 
 		<div class="block">
 			<div class="container">
-				<h2>Block Elements</h2>
-				<p><code>div</code> tags are the "standard" block level element.</p>
+				<h2>Static Elements</h2>
+        <pre>position: static;</pre>
 			</div>
 			<div class="highlight">
-				Notice that this <code>div</code> is a block level element. It spans the entire width of the viewport.
+				<p>
+            <code>static</code> is the default value. An element with <code>position: static;</code> is not positioned in any special way. A static element is said to be <em>not positioned</em> and an element with its position set to anything else is said to be <em>positioned</em>.
+          </p>
 			</div>
 
 		</div>
 		<div class="inline">
 			<div class="container">
-			<h2>Inline</h2>
+			<h2>Relative</h2>
 				<p><code>span</code> is the standard inline element. <span class="highlight inline">Inline elements wrap text</span> and elements without disrupting the flow of things around it.</p>
 			</div>
 		</div>

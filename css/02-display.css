@@ -1,0 +1,35 @@
+.nav,
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  display: block;
+}
+
+
+.grid,
+.grid li {
+  display: inline-block;
+}
+
+.grid {
+  text-align: justify;
+}
+
+.grid:after {
+  content: '';
+
+  display: inline-block;
+
+  width: 100%;
+}
+
+.grid li {
+    width: 24%;
+    margin-bottom: 18px;
+}
+
+.grid .ph {
+    margin-bottom: 0;
+}
